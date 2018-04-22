@@ -1,7 +1,8 @@
-# ImageNetRelationship
-Finding the relationship between the classes of a non-wordnet dataset to imagenet dataset
+# Dataset Class Relationship
+### Finds the relationship between the classes of two datasets based on synsets and names
+
+In this example ImageNet and TU-Berlin Sketch dataset are being matched, resulting in their intersecting classes.
+The results can be used for correct embedding on fine-tuning a target dataset in Domain Adaptation scenarios. Further explanation is given on github.com/ballester/lateral-representation-learning
 
 Requirements:
-NLTK with wordnet
-
-In this case, the dataset used for comparison is TU-Berlin, a sketch image dataset
+  * NLTK with wordnet
